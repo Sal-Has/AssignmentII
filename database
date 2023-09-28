@@ -1,0 +1,6 @@
+CREATE DATABASE phpdb;
+
+use phpdb;
+
+CREATE TABLE users( users_id int not null primary key,
+users_firstname varchar(20) not null,users_lastname varchar(20) not null,users_datebirth varchar(20) not null);
